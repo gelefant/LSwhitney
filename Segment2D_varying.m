@@ -53,7 +53,7 @@ function Segment2D_varying(tFun,segSet)
 if nargin < 2, segSet=2; end
 if nargin < 1, tFun=3; end
 
-addpath('../chebfun')
+addpath('/chebfun')
 
 fprintf('\n\n')
 fprintf('-------------------------------------------------------------\n')
